@@ -7,7 +7,7 @@ namespace DIO.CharCreate
 {
   public enum CharClass
   {
-    WARRIOR = 1,
+    PALADIN = 1,
     WIZARD = 2,
     HUNTER = 3
   }

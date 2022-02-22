@@ -8,7 +8,6 @@ namespace DIO.CharCreate
     public interface IRepository <T>
     {
         int NextId();
-        List<T> ListAll();
         List<T> ListOf();
         void Insert(T entity);
         void Remove(int id);

@@ -31,7 +31,7 @@ namespace DIO.CharCreate
     public int Level { get; private set; }
     public int Experience { get; private set; }
     public CharClass CharClass { get; private set; }
-    public bool Exist { get; private set; }
+    public bool NoExist { get; private set; }
 
 
     public string SetName(string name) => this.Name = name;
@@ -39,7 +39,7 @@ namespace DIO.CharCreate
     public int SetExperience(int exp) => this.Experience = exp;
     public CharClass SetCharClass(CharClass charClass) => this.CharClass = charClass;
 
-    public bool Remove() => Exist = true;
+    public bool Remove() => NoExist = true;
 
   }
   public class SubStatus
